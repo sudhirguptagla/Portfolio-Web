@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap');
+*{
+margin: 0%;
+padding: 0%;
+}
+
+.container{
+    display: flex;
+}
+.sidebar{
+    background-color: #e9e6df;
+  
+    height: 650px;
+    font-family: 'Source Serif Pro', serif;
+    transition: transform 0.4s ease-in;
+    
+       
+    
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 15px 0;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(18, 18, 26);
+
+}
+.main{
+    
+    width: 90vw;
+    height: 650px;
+}
+.infocontainer{
+    
+    height: 65vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height:63vh;
+    font-family: 'Source Serif Pro', serif;
+}
+.hello{
+font-size: 20px;
+
+}
+.name{
+   font-size: 30px; 
+   font-weight: bold;
+   font-family: 'Source Serif Pro', serif;
+
+}
+.about{
+font-size: 35px;
+}
+.moreabout{
+    font-size: 20px;
+    margin: 20px;
+    font-family: 'Source Serif Pro', serif;
+}
+.buttons{
+    margin-top: 35px;
+}
+.btn {
+padding: 9px 14px;
+color: white;
+background-color: #d1c8a2;
+font-weight: bold;
+font-size: 20px;
+margin: 0 3px;;
+border-radius: 25px;
+cursor: pointer;
+width: 170px;
+}
+.btn-sm{
+    font-size: 20px;
+    padding: 7px 13px;
+    margin: 10px;
+}
+.btn:hover{
+    background-color:rgb(138, 204, 205);
+    color: whitesmoke;
+}
+.devpic img{
+ 
+    height: 44vh;
+}
+.contactform{
+    font-family: 'Source Serif Pro', serif;
+    padding: 0 54px;
+    padding-top: 150px;
+}
+.contactform h2{
+padding: 12px 0;
+}
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactform  form div input {
+    width: 22vw;
+    border-radius: 9px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 40px;
+    margin: 3px 0;
+}
+.serviceItem{
+    margin: 25px;
+    font-family: 'Source Serif Pro', serif;
+}
+.serviceContainer h1{
+    font-family: 'Source Serif Pro', serif;
+}
+.serviceContainer p{
+    font-family: 'Source Serif Pro', serif;
+
+}
+.sidebarGO{
+    transform: translate(-445px,0px);
+    position: absolute;
+}
+@media  (max-width: 1350px){
+    *{
+      /*  background-color:#deefe9ba;*/
+    }
+   /*.sidebar{
+        transform: translate(-445px,0px);
+        position: absolute;
+    }*/
+}
+.hamburg{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+} 
+.cross{
+    margin-left: 90px;
+
+}
